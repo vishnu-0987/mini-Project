@@ -1,0 +1,11 @@
+.home-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  background-image: url("https://blogimage.vantagecircle.com/content/images/2021/03/Employee-tracking.png");
+  background-size: cover;
+  background-position: center bottom;
+}

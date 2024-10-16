@@ -1,0 +1,126 @@
+.profile-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 84.5vh;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.profile-bg-container h1 {
+  margin-top: -30px;
+  align-self: flex-start;
+  margin-left: 30px;
+}
+
+.profile-main-container {
+  display: flex;
+  align-items: center;
+
+  padding: 30px;
+  width: 100%;
+}
+
+.left-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  width: 400px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.05);
+  border-radius: 3px;
+  background-color: rgb(221, 185, 255);
+  /* color: white; */
+  padding: 30px;
+  height: 468px;
+}
+
+.left-profile-container img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.left-profile-container p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.right-profile-container {
+  width: 550px;
+}
+
+.profile-each-section-field {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.profile-tables {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.profile-table td {
+  padding: 25px 15px;
+  vertical-align: top;
+}
+.profile-tables td {
+  padding: 22px 17px;
+  vertical-align: top;
+}
+
+/* First, third, fifth, etc. rows */
+.profile-table tr:nth-child(odd) {
+  background-color: #d8d8d8; /* Light gray background */
+}
+
+/* Second, fourth, sixth, etc. rows */
+.profile-table tr:nth-child(even) {
+  background-color: rgb(248, 248, 248); /* Slightly darker gray background */
+}
+
+.profile-table td:first-child {
+  font-weight: bold;
+  width: 30%;
+}
+
+.profile-table td:nth-child(2) {
+  width: 10px;
+  text-align: center;
+}
+
+.profile-table td:last-child {
+  text-align: left;
+}
+
+.profile-tables tr:nth-child(odd) {
+  background-color: #d8d8d8; /* Light gray background */
+}
+
+/* Second, fourth, sixth, etc. rows */
+.profile-tables tr:nth-child(even) {
+  background-color: rgb(248, 248, 248); /* Slightly darker gray background */
+}
+
+.profile-tables td:first-child {
+  font-weight: bold;
+  width: 30%;
+}
+
+.profile-tables td:nth-child(2) {
+  width: 10px;
+  text-align: center;
+}
+
+.profile-tables td:last-child {
+  text-align: left;
+}

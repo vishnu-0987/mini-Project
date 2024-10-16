@@ -1,0 +1,33 @@
+.button-list-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: white;
+  border-radius: 2px;
+}
+
+.button-list-item p {
+  font-size: 15px;
+}
+
+.button-list-item:hover {
+  background-color: rgb(255, 255, 255);
+  color: blueviolet;
+}
+
+.selected-sidebar {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: white;
+  color: blueviolet;
+}
+
+.selected-sidebar p {
+  font-size: 15px;
+}

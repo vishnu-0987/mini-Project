@@ -1,0 +1,36 @@
+.crud-faculty-choice {
+  margin-top: 30px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-choice {
+  outline: none;
+  padding: 10px 15px;
+  border: none;
+}
+
+.select-choice {
+  outline: none;
+  padding: 10px 15px;
+  border: none;
+}
+
+.crud-faculty-choice button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(255, 175, 3);
+  /* color: white; */
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+}

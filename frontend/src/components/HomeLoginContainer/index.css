@@ -1,0 +1,40 @@
+.home-login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 40%;
+  padding: 70px 50px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 310px;
+  margin-top: 40px;
+}
+
+.link-button {
+  padding: 15px 30px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 23px;
+  font-family: "Poppins";
+  cursor: pointer;
+  outline: none;
+}
+
+.link-button:hover {
+  background-color: white;
+  color: blueviolet;
+  transform: scale(1.06);
+  border: solid 1px blueviolet;
+  transition: transform ease-out 0.32s;
+  margin: -0.05em;
+}

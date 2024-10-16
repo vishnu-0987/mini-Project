@@ -1,0 +1,59 @@
+.row-input {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login-page-container1 {
+  width: 40%;
+  padding: 30px 40px;
+}
+
+.input1 {
+  margin-right: 40px;
+}
+
+.login-container1 {
+  margin-top: 15px;
+}
+
+.login-input1 {
+  width: 117%;
+}
+.login-input2 {
+  width: 46.5%;
+  margin-right: 8px;
+}
+
+.input-label1 {
+  margin-bottom: 10px;
+}
+
+#role {
+  width: 100%;
+}
+
+#role option {
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #333;
+  font-size: 15px;
+}
+
+.button-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button-cont button {
+  width: 97%;
+}
+
+.pic-container {
+  display: flex;
+  align-items: center;
+  /* padding-top: 5px; */
+  padding-bottom: 12px;
+  /* padding: 10px 0px; */
+}

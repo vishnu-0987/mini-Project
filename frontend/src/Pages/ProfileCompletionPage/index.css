@@ -1,0 +1,68 @@
+.completion-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins";
+  background-color: antiquewhite;
+}
+.profile-completion-page {
+  box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.1);
+  padding: 20px 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-completion-page h1 {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.two-piece {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.input-field {
+  padding: 10px 15px;
+  outline: none;
+}
+.label-1 {
+  margin-bottom: -30px;
+  font-weight: 600;
+}
+
+.capture-button {
+  background-color: brown;
+  color: white;
+  width: 150px;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.submit-completion {
+  padding: 10px;
+  width: 50%;
+  align-self: center;
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}

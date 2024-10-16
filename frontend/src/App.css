@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff; /* Optional: Change this to match your theme */
+}
+
+.animated-logo {
+  width: 150px; /* Starting size of the logo */
+  height: auto;
+  animation: float 3s ease-in-out infinite, expand 3s ease-in-out 1;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Expanding animation */
+@keyframes expand {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5); /* Final size of the logo */
+  }
+}

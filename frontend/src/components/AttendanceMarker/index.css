@@ -1,0 +1,108 @@
+.attendance-marker-container {
+  padding-top: 20px;
+}
+
+.search-choic-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container div {
+  margin-left: 4px;
+  padding: 4px 10px;
+  height: 37px;
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+.search-input {
+  border: solid 1px black;
+  outline: none;
+  padding: 10px 15px;
+  width: 300px;
+  margin-left: 30px;
+}
+
+.attendance-marker-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 95vh;
+  padding: 20px;
+}
+
+.att-marker-container {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+}
+
+.left-att-marker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%; /* Adjust width as needed */
+  background-color: rgb(238, 46, 255);
+  border-radius: 4px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.right-att-marker-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 30px;
+  margin-left: 30px;
+  width: 45%;
+  background-color: aquamarine;
+}
+.right-att-marker-info-container h3 {
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+.right-att-marker-info-container p {
+  margin-bottom: 18px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  /* background-color: pink; */
+}
+
+.button-container button {
+  background-color: white;
+  /* color: white; */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 15px 10px;
+  cursor: pointer;
+}
+
+.dept-selects {
+  border: solid 1px black;
+  outline: none;
+  padding: 10px 15px;
+  width: 100px;
+}
+
+.prompt-asking {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}

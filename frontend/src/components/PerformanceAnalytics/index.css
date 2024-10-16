@@ -1,0 +1,89 @@
+.analytics-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.analytics-title,
+.section-title,
+.chart-title,
+.table-title {
+  color: #333;
+  text-align: center;
+}
+
+.analytics-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.chart-title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.attendance-section,
+.perks-section {
+  margin-bottom: 40px;
+}
+
+.attendance-chart-container,
+.perks-chart-container,
+.perks-table-container {
+  margin: 20px auto;
+  max-width: 700px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-chart-container,
+.perks-chart-container {
+  padding: 30px;
+}
+
+.perks-table-container {
+  overflow-x: auto;
+}
+
+.perks-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.perks-table th,
+.perks-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.perks-table th {
+  background-color: #f3f3f3;
+  font-weight: bold;
+}
+
+.perks-table td {
+  background-color: #fcfcfc;
+}
+
+.perks-table tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+.perks-table tbody tr:hover {
+  background-color: #f1f1f1;
+}

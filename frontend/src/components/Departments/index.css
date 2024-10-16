@@ -1,0 +1,60 @@
+.dept-select {
+  border: solid 1px black;
+  outline: none;
+  padding: 10px 15px;
+  width: 200px;
+}
+
+.staff-data {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.staff-profiles {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.each-staff {
+  display: flex;
+  padding: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.1);
+  /* background-color: red; */
+  border-radius: 3px;
+}
+
+.staff-pic {
+  height: 140px;
+  width: 140px;
+}
+
+.staff-info-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.staff-info-container h1 {
+  font-size: 23px;
+}
+
+.staff-info-container p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.staff-not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}

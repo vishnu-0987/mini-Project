@@ -1,0 +1,100 @@
+.attendance-tracker-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.attendance-tracker-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.attendance-tracker-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.date-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.date-input {
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.attendance-table-wrapper {
+  overflow-x: auto;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+.table-header,
+.table-cell {
+  padding: 12px;
+  text-align: left;
+  border-right: 1px solid #ddd;
+}
+
+.table-header {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table-header:last-child,
+.table-cell:last-child {
+  border-right: none;
+}
+
+.table-row:hover {
+  background-color: #f1f1f1;
+}
+
+.loading-text,
+.no-records-text,
+.error-text {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+
+.error-text {
+  color: red;
+  font-weight: bold;
+}
+
+.status-absent {
+  color: red;
+}
+
+.status-half-day {
+  color: orange;
+}
+
+.status-full-day {
+  color: green;
+}

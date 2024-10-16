@@ -1,0 +1,69 @@
+.leave-request-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 82.7vh;
+  /* align-items: center; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.leave-request-row-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.leave-request-form {
+  margin-top: 15px;
+  width: 40%;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
+  background-color: rgb(255, 196, 119);
+  padding: 20px 30px;
+}
+
+.textarea-reason {
+  outline: none;
+  padding: 10px;
+}
+.leave-request-form button {
+  padding: 8px 15px;
+  background-color: blueviolet;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.ul-leave-requests {
+  margin-left: 20px;
+  background-color: yellow;
+  margin-top: 15px;
+  width: 55%;
+  height: 75.5vh;
+  padding: 25px 40px;
+  list-style-type: none;
+  overflow-y: auto;
+}
+
+.ul-leave-requests h2 {
+  margin-bottom: 15px;
+}
+
+.ul-leave-requests li {
+  background-color: greenyellow;
+  border-radius: 3px;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+}
+
+.ul-leave-requests li p {
+  margin-bottom: 10px;
+}
+
+.ul-leave-requests li span {
+  font-weight: 600;
+  margin-right: 3px;
+}
